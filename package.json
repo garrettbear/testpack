@@ -1,7 +1,7 @@
 {
-  "name": "@metamask/metamask-module-template",
-  "version": "0.0.0",
-  "description": "The MetaMask Node module template",
+  "name": "testpack",
+  "version": "0.0.1",
+  "description": "The MetaMask Node module template testpack",
   "homepage": "https://github.com/MetaMask/metamask-module-template#readme",
   "bugs": {
     "url": "https://github.com/MetaMask/metamask-module-template/issues"

@@ -1,4 +1,4 @@
-# MetaMask Module Template
+# MetaMask Module Template Testpack
 
 This TypeScript module is maintained in the style of the MetaMask team.
 
