@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { CustomButton } from 'metachak';
+
 /**
  * Example function that returns a greeting for the given name.
  *
@@ -7,3 +11,12 @@
 export default function greeter(name: string): string {
   return `Hello, ${name}!`;
 }
+
+const App = () => (
+  <div>
+    <h1>Test CustomButton</h1>
+    <CustomButton label="Click Me" />
+  </div>
+);
+
+ReactDOM.render(<App />, document.getElementById('root'));
