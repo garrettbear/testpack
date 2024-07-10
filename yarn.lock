@@ -5027,7 +5027,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^11.2.14":
+"framer-motion@npm:^11.2.14, framer-motion@npm:^11.3.0":
   version: 11.3.0
   resolution: "framer-motion@npm:11.3.0"
   dependencies:
@@ -6715,7 +6715,7 @@ __metadata:
 
 "metachak@file:../metachak::locator=testpack%40workspace%3A.":
   version: 1.0.0
-  resolution: "metachak@file:../metachak#../metachak::hash=0b8a38&locator=testpack%40workspace%3A."
+  resolution: "metachak@file:../metachak#../metachak::hash=7c7a02&locator=testpack%40workspace%3A."
   dependencies:
     "@chakra-ui/react": "npm:^2.8.2"
     "@chakra-ui/theme-tools": "npm:^2.1.2"
@@ -6726,7 +6726,7 @@ __metadata:
   peerDependencies:
     react: ^18.3.1
     react-dom: ^18.3.1
-  checksum: 10/b5c316028f9c089757a31d628df228ab0cc77f78c547e30ba6a3244c0c6e1a9f4613f945cfbe47eea697b419ec720873ebbb9ae7ff3c1c324ffc1d06d434bb2f
+  checksum: 10/d2188788db959b4d1377d5a7e1a69cff30be46c565afe991f0776ab2d84760ef64c9501d839d3061ea96eab478e0a09344481c983c5779a979b50421e78550cb
   languageName: node
   linkType: hard
 
@@ -8407,6 +8407,9 @@ __metadata:
   resolution: "testpack@workspace:."
   dependencies:
     "@arethetypeswrong/cli": "npm:^0.15.3"
+    "@chakra-ui/react": "npm:^2.8.2"
+    "@emotion/react": "npm:^11.11.4"
+    "@emotion/styled": "npm:^11.11.5"
     "@lavamoat/allow-scripts": "npm:^3.0.4"
     "@lavamoat/preinstall-always-fail": "npm:^2.0.0"
     "@metamask/auto-changelog": "npm:^3.4.3"
@@ -8432,6 +8435,7 @@ __metadata:
     eslint-plugin-n: "npm:^15.7.0"
     eslint-plugin-prettier: "npm:^4.2.1"
     eslint-plugin-promise: "npm:^6.1.1"
+    framer-motion: "npm:^11.3.0"
     jest: "npm:^28.1.3"
     jest-it-up: "npm:^2.0.2"
     metachak: "file:../metachak"
