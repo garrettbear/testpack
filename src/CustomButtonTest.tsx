@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CustomButton from "metachak/src/components/CustomButton";
+import { CustomButton } from "metachak";
 
 const CustomButtonTest: React.FC = () => {
   return (
