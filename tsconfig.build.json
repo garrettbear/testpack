@@ -3,14 +3,15 @@
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "inlineSources": true,
     "noEmit": false,
     "outDir": "dist",
     "rootDir": "src",
-    "sourceMap": true
+    "sourceMap": true,
+    "jsx": "react"
   },
-  "include": ["./src/**/*.ts"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
   "exclude": [
     "./src/**/__fixtures__/**/*",
     "./src/**/__mocks__/**/*",
