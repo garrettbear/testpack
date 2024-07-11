@@ -15,7 +15,9 @@ export default function greeter(name: string): string {
 const App = () => (
   <div>
     <h1>Test CustomButton</h1>
-    <CustomButton label="Click Me" />
+    <CustomButton onClick={() => alert("Button clicked!")}>
+      Click Me
+    </CustomButton>
   </div>
 );
 
