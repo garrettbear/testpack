@@ -81,11 +81,11 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/react": "2.8.1",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "framer-motion": "^11.3.0",
-    "metachak": "file:../metachak",
+    "metachak": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
