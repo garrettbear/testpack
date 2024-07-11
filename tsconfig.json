@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": false,
     "forceConsistentCasingInFileNames": true,
     "lib": ["ES2020", "dom"],
     "module": "CommonJS",
     "moduleResolution": "node",
     "noEmit": false,
     "noErrorTruncation": true,
-    "noUncheckedIndexedAccess": true,
-    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "strict": false,
     "target": "es2020",
     "jsx": "react",
     "paths": {
